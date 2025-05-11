@@ -2,8 +2,6 @@
 
 🚀 A simple and effective goal tracker app built with Kotlin and Jetpack Compose, using Firebase for authentication and data storage. This app helps users set, track, and achieve their goals while maintaining streaks and motivation.
 
-## 📹 Demo Video
-*(https://www.youtube.com/shorts/ZJXrwFcUXlM)*
 
 ---
 
@@ -71,9 +69,7 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ---
 
-## 📝 License
 
-This project is licensed under the **MIT License**.
 
 ---
 
