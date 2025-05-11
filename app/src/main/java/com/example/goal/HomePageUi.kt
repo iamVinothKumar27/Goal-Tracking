@@ -127,15 +127,15 @@ fun HabitItem(goal : Goal?=null ,
     ){
 
         Text(
-            goal?.habit ?:"",
+            goal?.habit ?: "",
             modifier = Modifier
                 .wrapContentHeight()
-                .weight(0.8f)
-            ,
-            color = if(!checked) Color.Black else Color(0xFF37C871),
+                .weight(0.8f),
+            color = if (!checked) Color(0xFF222222) else Color(0xFF1B5E20), // Darker green
             fontSize = 16.sp,
-            fontWeight = FontWeight.W500,
+            fontWeight = FontWeight.Bold, // Optional: makes it even more readable
         )
+
 
         CompositionLocalProvider(LocalMinimumInteractiveComponentEnforcement provides false) {
             Checkbox(
